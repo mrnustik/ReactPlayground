@@ -39,7 +39,7 @@ export class Game extends React.Component {
     jumpTo(move) {
         this.setState({
             currentStep: move,
-            isPlayingX: (move % 2) == 0
+            isPlayingX: (move % 2) === 0
         });
     }
     render() {
